@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humorystyczne Wiadomości</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 1em 0;
+        }
+        nav a {
+            margin: 0 1em;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #4CAF50;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2em;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2em;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 1em;
+            }
+            nav a {
+                display: block;
+                margin: 0.5em 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Humorystyczne Wiadomości</h1>
+    </header>
+    <nav>
+        <a href="#news">Wiadomości</a>
+        <a href="#jokes">Żarty</a>
+    </nav>
+    <div class="container" id="news">
+        <h2>Wiadomości</h2>
+        <p>Na Śląsku zapanowała <strong>akopali=ipsa</strong>, ale mieszkańcy radzą sobie jak zwykle!</p>
+        <p>Nowa fala humorystycznych wiadomości podbija internet, a Śląsk stał się epicentrum żartów!</p>
+    </div>
+    <div class="container" id="jokes">
+        <h2>Żarty</h2>
+        <p>„U nas koronawirus, a na Śląsku? Tam nawet apokalipsa nie robi wrażenia!”</p>
+        <p>„Śląsk: gdzie nawet kataklizmy są traktowane jak drobne niedogodności.”</p>
+    </div>
+    <footer>
+        &copy; 2025 Humorystyczne Wiadomości. Wszelkie prawa zastrzeżone.
+    </footer>
+</body>
+</html>
